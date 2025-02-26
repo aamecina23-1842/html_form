@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1> Form document</h1>
-    <form action="login.php" method="POST">
+    <form action="action.php" method="POST">
         <table border="1">
             <tr>
                 <th> Question</th>
@@ -15,7 +15,7 @@
             </tr>
             <tr>
                 <td> Name</td>
-                <td><input type="Text" name="Name"></td>
+                <td><input type="Text" name="Name" value=""></td>
             </tr>
             <tr>
                 <td> Gender</td>
@@ -26,6 +26,7 @@
                 <td> Country</td>
                 <td>
                     <select name="Country">
+                        <option value="Select"> --Select Country--</option>
                         <option value="PH"> Philippines</option>
                         <option value="AUS"> Australia</option>
                         <option value="US"> United States</option>
@@ -34,7 +35,7 @@
             </tr>
             <tr>
                 <td colspan="2">
-                    <input type="SUBMIT" name="Save">
+                    <button input type="SUBMIT" name="Save" value="Submit"> Save</button>
                 </td>
             </tr>
         </table>
