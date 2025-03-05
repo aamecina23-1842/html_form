@@ -15,17 +15,17 @@
             </tr>
             <tr>
                 <td> Name</td>
-                <td><input type="Text" name="Name" value=""></td>
+                <td><input type="Text" name="name" value=""></td>
             </tr>
             <tr>
                 <td> Gender</td>
-                <td><input type="radio" name="Gender" value="Male">Male
-                <input type="radio" name="Gender" value="Female">Female</td>
+                <td><input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female">Female</td>
             </tr>
             <tr>
                 <td> Country</td>
                 <td>
-                    <select name="Country">
+                    <select name="country">
                         <option value="Select"> --Select Country--</option>
                         <option value="PH"> Philippines</option>
                         <option value="AUS"> Australia</option>

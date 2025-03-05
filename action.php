@@ -3,9 +3,9 @@
     var_dump($_POST);
     echo"</pre>";
 
-    $fullname = $_POST['Name'];
-    $gender = $_POST['Gender'];
-    $country = $_POST['Country'];
+    $full_name = $_POST['name'];
+    $gender = $_POST['gender'];
+    $country = $_POST['country'];
 ?>
 <?php
     $servername = "localhost";
@@ -25,7 +25,7 @@ echo "Connected successfully";
 
 <?php
     $sql = "INSERT INTO student_record (id, full_name, gender, country)
-    VALUES (NULL, '$fullname', '$gender', '$country')";
+    VALUES (NULL, '$full_name', '$gender', '$country')";
     
     if ($conn->query($sql) === TRUE) {
       echo "New record created successfully";
